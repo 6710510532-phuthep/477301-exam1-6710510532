@@ -20,13 +20,56 @@ h1, h2 {
     color: #0d3b66;
 }
 
-p, li, td, th {
+p, li, td, th, label {
     font-size: 16px;
     line-height: 1.6;
 }
 
 ul {
     line-height: 2;
+}
+
+.contact-form {
+    margin: 20px 0;
+    padding: 20px;
+    border: 1px solid #d8e3f0;
+    border-radius: 8px;
+    background-color: #f8fbff;
+}
+
+.form-group {
+    margin-bottom: 15px;
+}
+
+label {
+    display: block;
+    margin-bottom: 5px;
+    font-weight: bold;
+}
+
+input, textarea, button {
+    width: 100%;
+    padding: 10px;
+    font-size: 15px;
+    border: 1px solid #b9c9d9;
+    border-radius: 6px;
+    box-sizing: border-box;
+}
+
+textarea {
+    resize: vertical;
+}
+
+button {
+    background-color: #0d3b66;
+    color: white;
+    border: none;
+    cursor: pointer;
+    font-weight: bold;
+}
+
+button:hover {
+    background-color: #134f8a;
 }
 
 table {
